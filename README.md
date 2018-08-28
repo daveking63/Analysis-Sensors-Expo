@@ -9,7 +9,7 @@ According to the official <a href="https://www.sensorsexpo.com/show-overviewconf
 
 This year the conference took place in San Jose from June 26-28, 2018. A listing of the <a href ="">conference contents</a> provided details about the conference tracks, sessions, talks and speakers. This analysis focuses on these details. First, it examines the lexical content of the key ideas and topics being presented at this years conference. Second, it delves into the speakers - their titles, companies, and the key ideas they covered in their talks.
 
-<h3>Datasets</3>
+<h3>Datasets</h3>
 
 Normally, in analyses of this sort, I would have used a variety of tools (like Python's Beautiful Soup) to scrape the content from the relevant HTML pages associated with the listings.  Because of the structure of the HTML tags, this couldn't really be done with the detailed listing. As a consequence, I decided to: (1) simply copy the text content from the displayed listing, (2) store the contents in a text files, (3) create a program to extract the important details (i.e. track names, session titles and abstracts, and speaker names, positions, and companies), and (4) store the extracted results in a set of a python dictionaries for further analysis, as well as converting the dictionaries into a couple of json files. As usual, this took a substantial amount of manual work (aided by Excel and a text editor - in my case <a href="www.emeditor.com">EmEditor</a>) to work through the errors and inconsistencies in the data.
 
