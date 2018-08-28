@@ -7,7 +7,7 @@ According to the official <a href="https://www.sensorsexpo.com/show-overview">co
 
 "Sensors Expo & Conference is the largest gathering of engineers and engineering professionals involved in sensors and sensing-related technologies. For over 30 years, more than 6,400 professionals gather from across the nation and 40+ countries to explore today's sensor technologies and find the solutions to tomorrow's sensing challenges."
 
-This year the conference took place in San Jose from June 26-28, 2018. A listing of the <a href ="<https://sensorsexpoconference2018.sched.com/list/descriptions/">conference contents</a> provided details about the conference tracks, sessions, talks and speakers. This analysis focuses on these details. First, it examines the lexical content of the key ideas and topics being presented at this years conference. Second, it delves into the speakers - their titles, companies, and the key ideas they covered in their talks.
+This year the conference took place in San Jose from June 26-28, 2018. A listing of the <a href ="https://sensorsexpoconference2018.sched.com/list/descriptions/">conference contents</a> provided details about the conference tracks, sessions, talks and speakers. This analysis focuses on these details. First, it examines the lexical content of the key ideas and topics being presented at this years conference. Second, it delves into the speakers - their titles, companies, and the key ideas they covered in their talks.
 
 <h3>Datasets</h3>
 
