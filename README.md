@@ -7,7 +7,7 @@ According to the official <a href="https://www.sensorsexpo.com/show-overview">co
 
 "Sensors Expo & Conference is the largest gathering of engineers and engineering professionals involved in sensors and sensing-related technologies. For over 30 years, more than 6,400 professionals gather from across the nation and 40+ countries to explore today's sensor technologies and find the solutions to tomorrow's sensing challenges."
 
-This year the conference took place in San Jose from June 26-28, 2018. A listing of the <a href ="https://sensorsexpoconference2018.sched.com/list/descriptions/">conference contents</a> provided details about the conference tracks, sessions, talks and speakers. This analysis focuses on these details. First, it examines the lexical content of the key ideas and topics being presented at this years conference. Second, it delves into the speakers - their titles, companies, and the key ideas they covered in their talks.
+This year the conference took place in San Jose from June 26-28, 2018. A listing of the <a href ="https://sensorsexpoconference2018.sched.com/list/descriptions/">conference contents</a> provided details about the conference tracks, sessions, talks and speakers. This analysis is broken into two parts. First, it examines the lexical content of the key ideas and topics being presented at this years conference. This part of the analysis is basically completed, Second, it delves into the speakers - their titles, companies, and the key ideas they covered in their talks. This section is not quite underway (but will appear shortly).
 
 <h3>Datasets</h3>
 
@@ -29,7 +29,7 @@ Within this figure, they key programs are noted in bold. They are provided in th
   <li><i>trkDictSetUp.py</i> - Converts a text representation of the Expo program</li> into a Python dictionary containing the hierarchy of tracks (with ids and titles), sessions (with ids, titles and abstracts) and talks (with ids and titles). Note: speaker data is held in another dictionary.</li>
   <li><i>trkAnalysisExamples.py</i> - Simple set of examples illustrating how to navigate the hierarchy to obtain information about the various tracks and sessions.</li>
   <li><i>sessAbstractLemAnalysis.py</i> - Produces a Python dictionary containing and entry for each session which in turn contains a an id along with both a list of tokens for each type (words, lowercase, alphas, nonstops, stems and lemmas) found in the abstract as well as a summarized count of the list (e.g. {'word1':N1, 'word2':N2, ...,'wordN':Nn} or {'lemma1':N1, 'lemma2':N2, ...,'lemmaN':Nn})
-  <li><i>LemTopics.py</i> - Using various modules from the sklearn and matplot libraries/packages in sciPy
-  <li><i>LemTopics.py</i> - </li>
+  <li><i>lemTopics.py</i> - Using various modules from sklearn and matplotlib (both part of sciPy), this part of the analysis employs the dictionary of session lemmas found in the previous step to understand which tracks and sessions share similar content. Before performing the topic analysis, simpler forms of analysis were performed to guide the topic extraction.  Included were correlation, cluster/dendogram, and chi-square tests.
+  <li><i>topicNetworks.py</i> - While this is yet to be completed, the basic goal is to provide a network display showing the links among various lemmas by topic, track and session. The display is somewhat similar to the display provided by the Leximancer system.</li>
 </ol>
-  
+Given the complexities of these analyses, I've provided a narrated form of the processes and programs depicted in Figure 1. This narration, which is found in the Juypter iPython file labeled <a href=""><i>Topical Content: Lexical Analysis of Lemmas</i></a>. It provides not only a step-by-step rendition of these processes but also a step-by-step explanation of the results.
