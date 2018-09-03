@@ -15,18 +15,6 @@ Normally, in analyses of this sort, I would have used a variety of tools (like P
 
 <h3>Analysis of the Lexical Content</h3>
 
-Normally, I would employ Python's NLTK and a series of other SciPy tools to perform the lexical and topical analysis.  As a bit of an experiment, I decided to use a tool called <a href="https://info.leximancer.com/company/">Leximancer</a> from a company by the same name. According to the advertising, it is distinguished by the following features:
+Originally, I wanted to use a tool called <a href="https://info.leximancer.com/company/">Leximancer</a> from a company by the same name. According to the advertising, it is distinguished by a number of key features - no training sets or key term dictionaries, concepts not keywords, fast, no human bias, multiple exports, insight dashboard, etc. Unfortunately, I don't own a commercial copy (little pricey for the amateur data scientist who isn't attached to an educational institution) and the 7-day trial version emblazons the company name across the key visualizations. Consequently, I reverted to a series of Python modules (NLTK and Sklearn) that I've used on a variety of projects (analyzng other conference programs, rap music, political tweets, etc.). 
 
-<ul>
-<li>Minimal set</li>
-<li>No training sets or key term dictionaries</li>
-<li>No human bias in analysis</li>
-<li>Finds Concepts in Context, not keywords</li>
-<li>Useful results fast</li>
-<li>Concept and Network cloud visualisations</li>
-<li>Sentiment lens</li>
-<li>Concept exploration</li>
-<li>Concept based document query</li>
-<li>Multiple exports include:
-<li>Insight Dashboard Report - Insight Dashboard Report & Concept Thesaurus
- </ul>
+
