@@ -17,17 +17,19 @@ Normally, in analyses of this sort, I would have used a variety of tools (like P
 
 Originally, I wanted to employ a tool called <a href="https://info.leximancer.com/company/">Leximancer</a> from a company by the same name to do the content analysis. According to the advertising, it is distinguished by a number of key features - no training sets or key term dictionaries, concepts not keywords, fast, no human bias, multiple exports, insight dashboard, etc. Unfortunately, I don't own a commercial copy (little pricey for the amateur data scientist who isn't attached to an educational institution) and the 7-day trial version emblazons the company name across key visual outputs. Consequently, I reverted to a series of Python modules (NLTK and Sklearn) that I've used on a variety of projects (analyzing other conference programs, rap music, political tweets, etc.) along with other Python modules aimed at doing network analysis. 
 
-<h3>Code and Results</h3>
+<h3>Lexical Analysis of Session Abstract Lemmas: Code and Results</h3>
 
-The basic flow of the analysis is depicted in Figure 1:
+After running a bit of analysis on the talk and session titles, I decided to focus on the session abstracts as a means to understand the basic content and topics addressed by the conference.  Additionally, after looking at various types of tokens (e.g. lowercase, non-stop alphanumeric terms or lowercase, non-stop stems, etc.), I decided to concentrate on the (1-3 gram) lemmas extracted from the individual abstracts.  The basic flow of this analysis is depicted in Figure 1:
 
-<img src="pic_trulli.jpg" alt="Italian Trulli">
+<img src="https://github.com/daveking63/Analysis-Sensors-Expo/blob/master/analyzingSensorExpoProgram.png" alt="Figure 1. Lexical Analysis">
 
-For those who are interested, the base code that I used has been uploaded to this repository. The code is divided into a series of programs including:
+Within this figure, they key programs are noted in bold. They are provided in this repository and include:
 
 <ol>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li><i>trkDictSetUp.py</i> - Converts a text representation of the Expo program</li> into a Python dictionary containing the hierarchy of tracks (with ids and titles), sessions (with ids, titles and abstracts) and talks (with ids and titles). Note: speaker data is held in another dictionary.</li>
+  <li><i>trkAnalysisExamples.py</i> - Simple set of examples illustrating how to navigate the hierarchy to obtain information about the various tracks and sessions.</li>
+  <li><i>sessAbstractLemAnalysis.py</i> - Produces a Python dictionary containing and entry for each session which in turn contains a an id along with both a list of tokens for each type (words, lowercase, alphas, nonstops, stems and lemmas) found in the abstract as well as a summarized count of the list (e.g. {'word1':N1, 'word2':N2, ...,'wordN':Nn} or {'lemma1':N1, 'lemma2':N2, ...,'lemmaN':Nn})
+  <li><i>LemTopics.py</i> - Using various modules from the sklearn and matplot libraries/packages in sciPy
+  <li><i>LemTopics.py</i> - </li>
 </ol>
-        <li></li>
+  
