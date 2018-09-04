@@ -1,13 +1,13 @@
 # Analysis-Sensors-Expo
-Analysis of the content and speakers at 2018 Sensors Expo in San Jose from June 26-28.
 
 <h3>Introduction</h3>
 
-According to the official <a href="https://www.sensorsexpo.com/show-overview">conference description</a>:
+The genesis of this project is two fold.  
 
-"Sensors Expo & Conference is the largest gathering of engineers and engineering professionals involved in sensors and sensing-related technologies. For over 30 years, more than 6,400 professionals gather from across the nation and 40+ countries to explore today's sensor technologies and find the solutions to tomorrow's sensing challenges."
-
-This year the conference took place in San Jose from June 26-28, 2018. A listing of the <a href ="https://sensorsexpoconference2018.sched.com/list/descriptions/">conference contents</a> provided details about the conference tracks, sessions, talks and speakers. This analysis is broken into two parts. First, it examines the lexical content of the key ideas and topics being presented at this years conference. This part of the analysis is basically completed, Second, it delves into the speakers - their titles, companies, and the key ideas they covered in their talks. This section is not quite underway (but will appear shortly).
+<ol>
+    <li> I'm interested in the "sensor market," especially current thoughts about the roles of <i>edge computing</i> and the <i>Internet of Things (IoT)</i> in this market. As this year's <a href="https://www.sensorsexpo.com/show-overview">program</a> described, the Sensors Expo/Conference is "...the largest (international) gathering of engineers and engineering professionals involved in sensors and sensing-related technologies... (enabling them) to explore today's sensor technologies and find the solutions to tomorrow's sensing challenges." An analysis and mining of the <a href ="https://sensorsexpoconference2018.sched.com/list/descriptions/">conference content</a> could potentially provide clues about the state of the market and it's future evolution.</li>
+    <li> I have a general interest in data analysis and mining, especially as they apply to: <i>text</i>, <i>topic</i>, and <i> social media</i> content. In a past I've performed analyses of this sort on a variety of datasets, including other conference programs, Rap music, and political tweets (to name a few) with a focus on understanding how you determine the underlying features of the corpus, as well as changes occuring overtime.</lio>
+</ol>
 
 <h3>Datasets</h3>
 
