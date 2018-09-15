@@ -11,7 +11,7 @@ The genesis of this project is two fold.
 
 <h3>Datasets</h3>
 
-Normally, in an analyses of this sort, I would have used a variety of tools (like Python's Beautiful Soup) to scrape the content from the relevant HTML pages associated with the conference content.  Because of the structure of the HTML tags, this couldn't really be done with the underlying pages. As a consequence, I decided to: (1) simply copy the text content from the displayed listing, (2) store the content in a text file, (3) create a program to extract the important details from this file (i.e. track names, session titles and abstracts, session talks and titles, and speaker names, positions, and companies), and (4) store the extracted results in a larger python dictionary which for purposes of simplicity was split into two smaller dictionaries -- one containing the titles and abstracts and a second containing the speaker information. The flow of this overall process is depicted in Figure 1:
+Normally, in an analyses of this sort, I would have used a variety of tools (like Python's Beautiful Soup) to scrape the content from the relevant HTML pages associated with the conference content.  Because of the structure of the HTML tags, this couldn't really be done with the underlying pages. As a consequence, I decided to: (1) simply copy the text content from the displayed listings, (2) store the content in a text file, (3) create a program to extract the important details from this file (i.e. track names, session titles and abstracts, session talks and titles, and speaker names with positions and companies), and (4) store the extracted results in a larger python dictionary which for purposes of simplicity was split into two smaller dictionaries -- one containing the titles and abstracts and a second containing the speaker information. The flow of this overall process is depicted in Figure 1:
 
 <img src="https://github.com/daveking63/Analysis-Sensors-Expo/blob/master/Analysis%20Processes.jpg" height=530 width=955>
 
@@ -20,9 +20,9 @@ Normally, in an analyses of this sort, I would have used a variety of tools (lik
 The analysis of the data takes place in 3 stages:
 
 <ul>
-    <li>Analysis of the Lexical structure of the titles and abstracts, followed by a topical analysis of the abstracts.</li>
-    <li>Analysis of the positions and companies of the speakers</li>
-    <li>Analysis of the network structure among the topics, clusters and tokens (in this case lemmas), followed by the network structure among speakers, companies and topics</li>
+    <li>Textual Analysis of the titles and abstracts</li>
+    <li>Topic Analysis of the abstracts</li>
+    <li>Network Analysis among the topics, clusters and tokens (in this case lemmas), followed by the network structure among speakers, companies and topics</li>
 </ul>
 
 These analysis and their results are contained in 3 separate iPython notebooks. I've chosen this narrative structure because it makes it easier to understand the individual processes.
