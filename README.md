@@ -21,8 +21,8 @@ The analysis of the data takes place in 3 stages:
 
 <ul>
     <li>Textual Analysis of the titles and abstracts</li>
-    <li>Topic Analysis of the abstracts</li>
-    <li>Network Analysis among the topics, clusters and tokens (in this case lemmas), followed by the network structure among speakers, companies and topics</li>
+    <li>Topic Analysis of the abstracts *** Still in process</li>
+    <li>Network Analysis among the topics, clusters and tokens (in this case lemmas), followed by the network structure among speakers, companies and topics *** Still in process</li>
 </ul>
 
-These analysis and their results are contained in 3 separate iPython notebooks. I've chosen this narrative structure because it makes it easier to understand the individual processes.
+These analysis and their results are contained in 3 separate iPython notebooks. I've chosen this narrative structure because it makes it easier to understand the individual processes. Note: The notebooks are provided in two forms - iPython notebook and a Python program version.
