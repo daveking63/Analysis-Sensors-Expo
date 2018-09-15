@@ -6,7 +6,7 @@ The genesis of this project is two fold.
 
 <ol>
     <li> I'm interested in the "sensor market," especially current thoughts about the roles of <i>AI/machine learning</i>, <i>edge computing</i>, and the <i>Internet of Things (IoT)</i> in this market. As this year's <a href="https://www.sensorsexpo.com/show-overview">brochure and online program</a> described, the Sensors Expo/Conference is "...the largest (international) gathering of engineers and engineering professionals involved in sensors and sensing-related technologies... (enabling them) to explore today's sensor technologies and find the solutions to tomorrow's sensing challenges." An analysis and mining of the <a href ="https://sensorsexpoconference2018.sched.com/list/descriptions/">conference content</a> could potentially provide clues about the state of the market and it's future evolution.</li>
-    <li> I have a general interest in data analysis and mining, especially as they apply to: <i>text</i>, <i>topic</i>, and <i> social media</i> content. In the past I've performed analyses of this sort on a variety of datasets, including other conference programs, Rap music, and political tweets (to name a few) with a focus on understanding how you determine the underlying features of the corpus, as well as changes occurring overtime.</li>
+    <li> I have a general interest in data analysis and mining, especially as they apply to: <i>text</i>, <i>topic</i>, and <i> social media</i> content. In the past I've performed analyses of this sort on a variety of datasets, including other conference programs, Rap music, and political tweets (to name a few) with a focus on understanding how you determine the underlying features of the corpus, as well as changes occurring overtime. As a consequence, the analysis that follows reads more like a textbook aimed at doing text analysis and social network analysis.</li>
 </ol>
 
 <h3>Datasets</h3>
@@ -25,4 +25,4 @@ The analysis of the data takes place in 3 stages:
     <li>Network Analysis among the topics, clusters and tokens (in this case lemmas), followed by the network structure among speakers, companies and topics *** Still in process</li>
 </ul>
 
-These analysis and their results are contained in 3 separate iPython notebooks. I've chosen this narrative structure because it makes it easier to understand the individual processes. Note: The notebooks are provided in two forms - iPython notebook and a Python program version.
+These analyses and their results are contained in 3 separate iPython notebooks. I've chosen this narrative structure because it makes it easier to understand the individual processes. Note: The notebooks are provided in two forms - iPython notebook and a Python program version.
